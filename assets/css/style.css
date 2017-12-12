@@ -1,0 +1,36 @@
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	background-color: #504742;
+	color: #ccff00;
+    text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+ .container {
+	background-color: #504742;
+	border: 10px solid #ccff00;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    }
+
+.jumbotron,h1 {
+	background-color: #504742;
+	font-size: 64px;
+
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.btn {
+	background-color: #504742;
+	color: #ccff00;
+	border: 2px solid #ccff00;
+	text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+	box-shadow: 1px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    /*text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;*/
+}

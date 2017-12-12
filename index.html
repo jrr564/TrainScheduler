@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Train Schedule</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+	<header>
+        <div class="container">
+            <div class="text-center">
+                <h1>TRAIN INFORMATION</h1>
+            </div>
+        </div>
+	</header>
+	<div class="container panel panel-default">
+		<div class="panel-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">NAME</th>
+                <th scope="col">DESTINATION</th>
+                <th scope="col">FREQUENCY - (MIN)</th>
+                <th scope="col">NEXT ARRIVAL</th>
+                <th scope="col">MINUTES AWAY</th>	
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+	</div>
+	<div class="container panel panel-default">
+		<div class="text-center">
+			<h2>NEW ROUTE</h2>
+		</div>
+		<div class="panel-body">
+			<form role="form">
+				<label for="name-input">NAME</label>
+				<input class="form-control" id="name-input" type="text">
+			</form>
+			<form role="form">
+				<label for="destination-input">DESTINATION</label>
+				<input class="form-control" id="destination-input" type="text">
+			</form>
+			<form role="form">
+				<label for="time-input">FIRST TRAIN TIME (HH-MM)</label>
+				<input class="form-control" id="time-input" type="number">
+			</form>
+			<div class="form-group">
+	            <label for="freq-input">FREQ. (MIN)</label>
+	            <input class="form-control" id="freq-input" type="number">
+	        </div>
+	        <button class="btn btn-default" id="add-train-btn" type="submit">SUBMIT</button>
+			</form>
+		</div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+<script src="assets/javascript/java.js"></script>
+</body>
+</html>
