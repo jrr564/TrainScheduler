@@ -8,28 +8,23 @@
 
   <title>Train Schedule</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
 <body>
-	<header>
-        <div class="container">
-            <div class="text-center">
-                <h1>TRAIN INFORMATION</h1>
-            </div>
-        </div>
-	</header>
 	<div class="container panel panel-default">
+		 <h1 class="head text-center">ARRIVALS</h1>
 		<div class="panel-body">
-          <table class="table">
+          <table id="train-table" class="table">
             <thead>
               <tr>
-                <th scope="col">NAME</th>
                 <th scope="col">DESTINATION</th>
-                <th scope="col">FREQUENCY - (MIN)</th>
-                <th scope="col">NEXT ARRIVAL</th>
-                <th scope="col">MINUTES AWAY</th>	
+                <th scope="col">NAME</th>
+                <th scope="col">FREQ (MIN)</th>
+                <th scope="col">ARRIVAL</th>
+                <th scope="col">MIN. AWAY</th>	
               </tr>
             </thead>
             <tbody id="tableBody"></tbody>
@@ -38,7 +33,7 @@
 	</div>
 	<div class="container panel panel-default">
 		<div class="text-center">
-			<h2>NEW ROUTE</h2>
+			<h1>NEW ROUTE</h1>
 		</div>
 		<div class="panel-body">
 			<form role="form">

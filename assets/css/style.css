@@ -1,36 +1,37 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	background-color: #504742;
-	color: #ccff00;
-    text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
-}
+	font-size: 22px;
+	background-color: #000000;
+    color: #FDF8FD;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-shadow: 
+    .1vw 0vw .25vw #FDF8FD, .2vw 0vw .25vw #FDF8FD, .4vw 0vw .25vw #FDF8FD, 
+    .1vw 0vw .1vw #F1EC81, .2vw 0vw 0vw #F1EC81, .4vw 0vw 0vw #F1EC81,
+    .1vw 0vw .1vw #F1EC81, .2vw 0vw .1vw #F1EC81, .4vw 0vw 0vw #F1EC81,
+    .1vw 0vw 1vw #F1EC81, .2vw 0vw 2vw #F1EC81, .4vw 0vw 2vw #F1EC81, .2vw 0vw 5vw #F1EC81,
+    .1vw 0vw .5vw #F2E90B, .2vw 0vw .5vw #F2E90B, .4vw 0vw 6vw #F2E90B, 
+    .1vw 0vw 2vw #F2E90B, .2vw 0vw 5vw #F2E90B, .4vw 0vw 0vw #F2E90B;
+  }
 
  .container {
-	background-color: #504742;
-	border: 10px solid #ccff00;
-    border-radius: 10px;
+	background-color: #000000;
     margin: 20px;
-    padding: 10px;
-    box-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
     }
 
-.jumbotron,h1 {
-	background-color: #504742;
-	font-size: 64px;
-
-}
-
 h1 {
-	font-weight: bold;
-}
-
-.btn {
-	background-color: #504742;
-	color: #ccff00;
-	border: 2px solid #ccff00;
-	text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
-	box-shadow: 1px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
-    /*text-shadow: 5px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;*/
-}
+    color: #F0D6DE;
+    line-height: 6vw;
+	font-size: 80px;
+    margin-right: 2vw;
+    text-shadow: 
+    .1vw 0vw .25vw #F0D6DE, .2vw 0vw .25vw #F0D6DE, .4vw 0vw .25vw #F0D6DE, 
+    .1vw 0vw .1vw #F181B2, .2vw 0vw 0vw #F181B2, .4vw 0vw 0vw #F181B2,
+    .1vw 0vw .1vw #F181B2, .2vw 0vw .1vw #F181B2, .4vw 0vw 0vw #F181B2,
+    .1vw 0vw 1vw #F181B2, .2vw 0vw 2vw #F181B2, .4vw 0vw 2vw #F181B2, .2vw 0vw 5vw #F181B2,
+    .1vw 0vw .5vw #F20B70, .2vw 0vw .5vw #F20B70, .4vw 0vw 6vw #F20B70, 
+    .1vw 0vw 4vw #F20B70, .2vw 0vw 20vw #F20B70, .4vw 0vw 10vw #F20B70,
+    .1vw 0vw 10vw #F20B70, .2vw 0vw 30vw #F20B70, .4vw 0vw 10vw #F20B70;
+  }
